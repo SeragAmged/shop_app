@@ -1,0 +1,34 @@
+name: shop_app
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  conditional_builder_null_safety: ^0.0.6
+  dio: ^5.0.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  shared_preferences: ^2.0.18
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: louis
+      fonts:
+        - asset: assets/fonts/Louis.ttf
